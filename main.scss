@@ -1,0 +1,124 @@
+@import url('https://rsms.me/inter/inter.css');
+
+body {
+    background: rgb(91, 160, 240);
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-family: "Inter", "sans-serif";
+}
+
+.container {
+    width: 30%;
+    background: rgb(91, 160, 240);
+    border-radius: 5px;
+
+
+
+    .inner {
+        background: rgb(58, 58, 121);
+        padding: 1em;
+        border-radius: 5px;
+        width: 50%;
+        clip-path: circle(15% at 87% 40%);
+        transition: clip-path .5s ease-in-out; 
+
+
+        
+        h1 {
+            text-align: left;
+            color: white;
+            margin: 0;
+        }
+        
+        p {
+            text-align: left;
+            color: white;
+            font-size: .8rem;
+        }
+    }
+
+    &:hover .inner {
+        clip-path: circle(75%);
+    }
+}
+
+.containertwo {
+    width: 30%;
+    background: rgb(91, 160, 240);
+    border-radius: 5px;
+    left: 90%;
+    top: 20%;
+
+
+
+    .innertwo {
+        background: rgb(58, 58, 121);
+        padding: 1em;
+        border-radius: 5px;
+        width: 50%;
+        clip-path: circle(15% at 87% 40%);
+        transition: clip-path .5s ease-in-out; 
+
+
+        
+        h2 {
+            text-align: left;
+            color: white;
+            margin: 0;
+            font-size: 20px;
+        }
+        
+        p {
+            text-align: left;
+            color: white;
+            font-size: .8rem;
+        }
+    }
+
+    &:hover .innertwo {
+        clip-path: circle(75%);
+    }
+}
+
+.containerthree {
+    width: 30%;
+    background: rgb(91, 160, 240);
+    border-radius: 5px;
+
+
+
+    .innerthree {
+        background: rgb(58, 58, 121);
+        padding: 1em;
+        border-radius: 5px;
+        width: 50%;
+        clip-path: circle(15% at 87% 50%);
+        transition: clip-path .5s ease-in-out; 
+
+
+        
+        h2 {
+            text-align: center;
+            color: white;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        a {
+            text-align: center;
+            color: white;
+            font-size: 18px;
+            margin: 0;
+            text-decoration: none;
+        }
+        
+    }
+
+    &:hover .innerthree {
+        clip-path: circle(75%);
+    }
+}
+

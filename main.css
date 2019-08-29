@@ -1,0 +1,128 @@
+@import url("https://rsms.me/inter/inter.css");
+body {
+  background: #5ba0f0;
+  height: 100vh;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Inter", "sans-serif";
+}
+
+.container {
+  width: 30%;
+  background: #5ba0f0;
+  border-radius: 5px;
+}
+
+.container .inner {
+  background: #3a3a79;
+  padding: 1em;
+  border-radius: 5px;
+  width: 50%;
+  -webkit-clip-path: circle(15% at 87% 40%);
+          clip-path: circle(15% at 87% 40%);
+  -webkit-transition: -webkit-clip-path .5s ease-in-out;
+  transition: -webkit-clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out, -webkit-clip-path .5s ease-in-out;
+}
+
+.container .inner h1 {
+  text-align: left;
+  color: white;
+  margin: 0;
+}
+
+.container .inner p {
+  text-align: left;
+  color: white;
+  font-size: .8rem;
+}
+
+.container:hover .inner {
+  -webkit-clip-path: circle(75%);
+          clip-path: circle(75%);
+}
+
+.containertwo {
+  width: 30%;
+  background: #5ba0f0;
+  border-radius: 5px;
+  left: 90%;
+  top: 20%;
+}
+
+.containertwo .innertwo {
+  background: #3a3a79;
+  padding: 1em;
+  border-radius: 5px;
+  width: 50%;
+  -webkit-clip-path: circle(15% at 87% 40%);
+          clip-path: circle(15% at 87% 40%);
+  -webkit-transition: -webkit-clip-path .5s ease-in-out;
+  transition: -webkit-clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out, -webkit-clip-path .5s ease-in-out;
+}
+
+.containertwo .innertwo h2 {
+  text-align: left;
+  color: white;
+  margin: 0;
+  font-size: 20px;
+}
+
+.containertwo .innertwo p {
+  text-align: left;
+  color: white;
+  font-size: .8rem;
+}
+
+.containertwo:hover .innertwo {
+  -webkit-clip-path: circle(75%);
+          clip-path: circle(75%);
+}
+
+.containerthree {
+  width: 30%;
+  background: #5ba0f0;
+  border-radius: 5px;
+}
+
+.containerthree .innerthree {
+  background: #3a3a79;
+  padding: 1em;
+  border-radius: 5px;
+  width: 50%;
+  -webkit-clip-path: circle(15% at 87% 50%);
+          clip-path: circle(15% at 87% 50%);
+  -webkit-transition: -webkit-clip-path .5s ease-in-out;
+  transition: -webkit-clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out;
+  transition: clip-path .5s ease-in-out, -webkit-clip-path .5s ease-in-out;
+}
+
+.containerthree .innerthree h2 {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  margin: 0;
+}
+
+.containerthree .innerthree a {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.containerthree:hover .innerthree {
+  -webkit-clip-path: circle(75%);
+          clip-path: circle(75%);
+}
+/*# sourceMappingURL=main.css.map */
