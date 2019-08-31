@@ -1,25 +1,24 @@
-@import url("https://rsms.me/inter/inter.css");
 body {
-  background: #5ba0f0;
+  background: #fff6da;
   height: 100vh;
-  margin: 0;
+  margin: 0 40px;
   display: -ms-grid;
   display: grid;
   justify-items: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "Inter", "sans-serif";
+  font-family: "Montserrat Alternates", "sans-serif";
 }
 
 .container {
   width: 30%;
-  background: #5ba0f0;
+  background: #fff6da;
   border-radius: 5px;
 }
 
 .container .inner {
-  background: #3a3a79;
+  background: #042f4b;
   padding: 1em;
   border-radius: 5px;
   width: 50%;
@@ -50,14 +49,14 @@ body {
 
 .containertwo {
   width: 30%;
-  background: #5ba0f0;
+  background: #fff6da;
   border-radius: 5px;
   left: 90%;
   top: 20%;
 }
 
 .containertwo .innertwo {
-  background: #3a3a79;
+  background: #042f4b;
   padding: 1em;
   border-radius: 5px;
   width: 50%;
@@ -73,13 +72,13 @@ body {
   text-align: left;
   color: white;
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .containertwo .innertwo p {
   text-align: left;
   color: white;
-  font-size: .8rem;
+  font-size: 12px;
 }
 
 .containertwo:hover .innertwo {
@@ -89,12 +88,12 @@ body {
 
 .containerthree {
   width: 30%;
-  background: #5ba0f0;
+  background: #fff6da;
   border-radius: 5px;
 }
 
 .containerthree .innerthree {
-  background: #3a3a79;
+  background: #042f4b;
   padding: 1em;
   border-radius: 5px;
   width: 50%;
@@ -107,14 +106,14 @@ body {
 }
 
 .containerthree .innerthree h2 {
-  text-align: center;
+  text-align: left;
   color: white;
   font-size: 18px;
   margin: 0;
 }
 
 .containerthree .innerthree a {
-  text-align: center;
+  text-align: left;
   color: white;
   font-size: 18px;
   margin: 0;

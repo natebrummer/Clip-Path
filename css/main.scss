@@ -1,24 +1,25 @@
-@import url('https://rsms.me/inter/inter.css');
+
+
 
 body {
-    background: rgb(91, 160, 240);
+    background: #fff6da;
     height: 100vh;
     margin: 0 40px;
     display: grid;
     justify-items: center;
     align-items: center;
-    font-family: "Inter", "sans-serif";
+    font-family: "Montserrat Alternates", "sans-serif";
 }
 
 .container {
     width: 30%;
-    background: rgb(91, 160, 240);
+    background: #fff6da;
     border-radius: 5px;
 
 
 
     .inner {
-        background: rgb(58, 58, 121);
+        background: #042f4b;
         padding: 1em;
         border-radius: 5px;
         width: 50%;
@@ -47,7 +48,7 @@ body {
 
 .containertwo {
     width: 30%;
-    background: rgb(91, 160, 240);
+    background: #fff6da;
     border-radius: 5px;
     left: 90%;
     top: 20%;
@@ -55,7 +56,7 @@ body {
 
 
     .innertwo {
-        background: rgb(58, 58, 121);
+        background: #042f4b;
         padding: 1em;
         border-radius: 5px;
         width: 50%;
@@ -68,13 +69,13 @@ body {
             text-align: left;
             color: white;
             margin: 0;
-            font-size: 20px;
+            font-size: 18px;
         }
         
         p {
             text-align: left;
             color: white;
-            font-size: .8rem;
+            font-size: 12px;
         }
     }
 
@@ -85,13 +86,13 @@ body {
 
 .containerthree {
     width: 30%;
-    background: rgb(91, 160, 240);
+    background: #fff6da;
     border-radius: 5px;
 
 
 
     .innerthree {
-        background: rgb(58, 58, 121);
+        background: #042f4b;
         padding: 1em;
         border-radius: 5px;
         width: 50%;
@@ -101,14 +102,14 @@ body {
 
         
         h2 {
-            text-align: center;
+            text-align: left;
             color: white;
             font-size: 18px;
             margin: 0;
         }
 
         a {
-            text-align: center;
+            text-align: left;
             color: white;
             font-size: 18px;
             margin: 0;
